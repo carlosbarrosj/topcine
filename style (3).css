@@ -1,0 +1,96 @@
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #080a1a;
+  color: white;
+}
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+.logo {
+  height: 60px;
+  margin-bottom: 10px;
+}
+header h1 {
+  color: #a6a8ff;
+  font-size: 32px;
+}
+.features p {
+  margin: 5px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.btn-primary {
+  background: #e50914;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+.btn-secondary {
+  background: #e50914;
+  padding: 10px 16px;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.indique, .form-section, .ranking {
+  margin-top: 50px;
+}
+input, button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+input[readonly] {
+  background: #1b1d3a;
+  color: white;
+  border: 1px solid #333;
+  text-align: center;
+}
+button {
+  background: #e50914;
+  color: white;
+  font-weight: bold;
+}
+.progress-box {
+  margin-bottom: 30px;
+}
+.progress-text {
+  margin: 10px 0 5px;
+}
+.progress-bar {
+  background: #333;
+  border-radius: 10px;
+  height: 10px;
+}
+.progress-bar div {
+  background: #7b61ff;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+}
+.ranking-box {
+  background: #101234;
+  padding: 20px;
+  border-radius: 10px;
+}
+.ranking-box h3 {
+  margin-top: 0;
+}
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
